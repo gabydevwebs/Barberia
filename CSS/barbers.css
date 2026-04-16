@@ -154,17 +154,16 @@ nav a.activo::after {
 .hero {
   position: relative;
   height: 100vh;
-  overflow: hidden;
-
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  overflow: hidden;
 }
 
 /* IMAGEN */
 .hero-img {
   position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
